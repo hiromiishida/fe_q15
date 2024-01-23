@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         String[] result = conversion(100);
-        for (String value : result){
-            System.out.println(value);
+        for (int i = result.length - 1 ; i >= 0 ; i--){
+            System.out.println(result[i]);
         }
     }
 
